@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Fonts
+
+This project uses custom fonts defined in the Tailwind CSS configuration. Below are the available font families and their corresponding Tailwind CSS classes:
+
+### Poppins
+
+- **Class:** `font-poppins`
+- **Usage:** This is the default sans-serif font for the project.
+
+### Libre Baskerville
+
+- **Regular**
+
+  - **Class:** `font-libre-regular`
+  - **Usage:** Use this class to apply the regular weight of the Libre Baskerville font.
+
+- **Bold**
+
+  - **Class:** `font-libre-bold`
+  - **Usage:** Use this class to apply the bold weight of the Libre Baskerville font.
+
+- **Italic**
+  - **Class:** `font-libre-italic`
+  - **Usage:** Use this class to apply the italic style of the Libre Baskerville font.
