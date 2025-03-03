@@ -1,9 +1,41 @@
+import { AlignJustify } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="p-4">
-      <h2 className="text-xl font-bold">Navbar Component</h2>
+    <div>
+      <header className="flex absolute z-10 w-screen justify-between items-center px text-white font-normal text-xl">
+        <img
+          src="/logo/brand-logo.png"
+          alt="logo"
+          className="logo-img"
+        />
+        <div className="hidden lg:flex justify-end space-x-6  w-full ">
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            Home
+          </Link>
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            About Us
+          </Link>
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            Our Services
+          </Link>
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            For patients
+          </Link>
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            Testimonials
+          </Link>
+          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+            Blogs
+          </Link>
+        </div>
+        <div className="flex lg:hidden bg-[#546940] p-2 rounded-xl">
+          <AlignJustify className=" justify-end space-x-10 " />
+        </div>
+      </header>
     </div>
   );
 };

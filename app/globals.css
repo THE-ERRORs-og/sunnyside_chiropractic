@@ -37,4 +37,35 @@ body {
     font-family: "libre-italic";
     src: url("/fonts/LibreBaskerville-Italic.woff2") format("woff2");
   }
+  img {
+    @apply block max-w-full;
+  }
+
+}
+
+@layer utilities{
+  /* Start of Typography */
+  .main-heading{
+    @apply font-libre-regular ;
+  }
+  .sub-heading{
+    @apply font-libre-bold text-[3.8em]  text-primary;
+  }
+  .px{
+    @apply md:pl-16 md:pr-16 pl-6 pr-6 
+  }
+  .my{
+    @apply mt-14 mb-14
+  }
+
+ 
+
+  .logo-img{
+    @apply md:w-[200px] w-[150px]
+  }
+
+ /* Start with buttons */
+  .btn-primary{
+    @apply bg-[#FFC24A] pt-2 pb-2 pr-7 pl-7 md:pt-3.5 md:pb-3.5 md:pl-12 md:pr-12 text-[0.75rem] md:text-[1.2rem] text-[#53683F] font-medium rounded-xl transition duration-300 ease-in-out hover:bg-[#ea9a3f]
+  }
 }
