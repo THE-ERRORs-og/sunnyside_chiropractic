@@ -7,7 +7,6 @@ import TeamSection from "@/components/home/TeamSection";
 const Home = () => {
   return (
     <>
-      <h1 className="text-2xl font-bold">Home Page</h1>
       <Hero />
       <AboutSection />
       <ServiceList />
