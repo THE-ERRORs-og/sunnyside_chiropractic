@@ -16,19 +16,19 @@ const Navbar = () => {
           <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             Home
           </Link>
-          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+          <Link href="/about-us" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             About Us
           </Link>
-          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+          <Link href="/service" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             Our Services
           </Link>
-          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+          <Link href="/patients" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             For patients
           </Link>
-          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+          <Link href="/testimonials" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             Testimonials
           </Link>
-          <Link href="/" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
+          <Link href="/blogs" className="text-lg hover:text-secondary  transition duration-300 ease-in-out">
             Blogs
           </Link>
         </div>
