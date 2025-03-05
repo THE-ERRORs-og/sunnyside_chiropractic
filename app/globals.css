@@ -40,6 +40,9 @@ body {
   img {
     @apply block max-w-full;
   }
+  p{
+    @apply text-[#000] font-normal text-[0.75rem] md:text-[1rem] lg:text-[1.5rem] leading-[1rem] md:leading-[1.25rem] lg:leading-[2.25rem]
+  }
 
 }
 
@@ -57,8 +60,9 @@ body {
   .my{
     @apply mt-14 mb-14
   }
-
- 
+  .container{
+    @apply px my min-h-8
+  }
 
   .logo-img{
     @apply md:w-[200px] w-[150px]
