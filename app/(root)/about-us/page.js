@@ -6,7 +6,6 @@ import DoctorProfile from "@/components/about/DoctorProfile";
 const AboutUs = () => {
   return (
     <>
-      <h1 className="text-2xl font-bold">AboutUs Page</h1>
       <MissionVision />
       <CareProcess />
       <DoctorProfile />
