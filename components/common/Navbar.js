@@ -5,8 +5,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
-      <header className="flex absolute z-10 w-screen justify-between items-center px text-white font-normal text-xl">
+    <nav>
+      <header className="flex absolute z-10 w-screen justify-between items-center px text-black font-normal text-xl">
         <img
           src="/logo/brand-logo.png"
           alt="logo"
@@ -36,7 +36,7 @@ const Navbar = () => {
           <AlignJustify className=" justify-end space-x-10 " />
         </div>
       </header>
-    </div>
+    </nav>
   );
 };
 

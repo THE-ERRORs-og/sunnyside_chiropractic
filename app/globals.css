@@ -52,7 +52,7 @@ body {
     @apply font-libre-regular ;
   }
   .sub-heading{
-    @apply font-libre-bold text-[3.8em]  text-primary;
+    @apply font-libre-bold font-[40] text-[1.5em] md:text-[2.25em] lg:text-[3.8em] leading-[1.5rem] md:leading-[3rem] lg:leading-[3.5rem] text-primary;
   }
   .px{
     @apply md:pl-16 md:pr-16 pl-6 pr-6 
@@ -60,8 +60,11 @@ body {
   .my{
     @apply mt-14 mb-14
   }
-  .container{
-    @apply px my min-h-8
+  .main-container{
+    @apply px my min-h-8 w-full
+  }
+  .header-container{
+    @apply px mt-24 md:mt-32 mb-14
   }
 
   .logo-img{
