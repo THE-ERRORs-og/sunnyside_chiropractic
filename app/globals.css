@@ -3,11 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 /* 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,8 +14,6 @@
 body {
   width: 100dvw;
   overflow-x: hidden;
-  color: var(--foreground);
-  background: var(--background);
   font-family: "Poppins", sans-serif;
 }
 
@@ -43,6 +36,7 @@ body {
   p{
     @apply text-[#000] font-normal text-[0.5rem] md:text-[1rem] lg:text-[1.5rem] leading-[0.625rem] md:leading-[1.25rem] lg:leading-[2.25rem]
   }
+  
 
 }
 
@@ -69,7 +63,7 @@ body {
   }
 
   .sub-heading{
-    @apply font-libre-bold font-[40] text-[1.5em] md:text-[2.25em] lg:text-[3.8em] leading-[1.5rem] md:leading-[3rem] lg:leading-[3.5rem] text-primary;
+    @apply font-libre-bold text-[1.5rem] md:text-[2.25rem] lg:text-[3.375rem] leading-[1.75rem] md:leading-[3.125rem] lg:leading-[3.125rem] text-primary;
   }
   .px{
     @apply md:pl-16 md:pr-16 pl-6 pr-6 
@@ -96,5 +90,17 @@ body {
 
   .transition-smooth{
     @apply transition duration-300 ease-in-out
+  }
+}
+
+/* 
+---break--- */
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }

@@ -5,6 +5,7 @@ import ServiceList from "@/components/home/ServiceList";
 import TeamSection from "@/components/home/TeamSection";
 import { Contact } from "lucide-react";
 import ContactBanner from "@/components/common/ContactBanner";
+import TestimonialSwiper from "@/components/common/TestimonialSwiper";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ServiceList />
       <TeamSection />
       <ContactBanner/>
+      <TestimonialSwiper/>
     </>
   );
 };
