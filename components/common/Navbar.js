@@ -40,10 +40,10 @@ const Navbar = () => {
             Testimonials
           </Link>
           <Link
-            href="/blogs"
+            href="/blog"
             className="text-lg text-white hover:text-secondary  transition duration-300 ease-in-out"
           >
-            Blogs
+            Blog
           </Link>
         </div>
         <div className="flex lg:hidden bg-[#546940] p-2 rounded-xl">

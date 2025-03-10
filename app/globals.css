@@ -62,6 +62,10 @@ body {
     @apply text-[0.75rem] md:text-[1rem] lg:text-[1.5rem] leading-normal;
   }
 
+  .review-content{
+    @apply p-1 text-[0.6rem] leading-[1rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-[1.875rem] text-start ;
+  }
+
   .sub-heading{
     @apply font-libre-bold text-[1.5rem] md:text-[2.25rem] lg:text-[3.375rem] leading-[1.75rem] md:leading-[3.125rem] lg:leading-[3.125rem] text-primary;
   }
@@ -71,6 +75,12 @@ body {
  
   .my{
     @apply mt-14 mb-14
+  }
+  .slider-container{
+    @apply w-[85vmin] h-[40vmin] md:w-[80vmin] md:h-[40vmin] ;
+  }
+  .slider-card-container{
+    @apply absolute p-2 md:pt-[2rem] md:pr-[2rem] md:pb-[2rem] md:pl-[1.875rem] top-0 left-0 w-full h-full rounded-[0.75rem] border-[0.12px] border-black shadow-lg overflow-hidden transition-all duration-150 ease-out
   }
   .main-container{
     @apply px my min-h-8 w-full

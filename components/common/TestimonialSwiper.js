@@ -2,28 +2,136 @@ import React from "react";
 import { Carousel } from "../ui/carousel";
 
 const TestimonialSwiper = () => {
-    const slideData = [
-        {
-          title: "Mystic Mountains",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Urban Dreams",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Neon Nights",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          title: "Desert Whispers",
-          button: "Explore Component",
-          src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-      ];
+  const testimonials = [
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits,  office personnel are very courteous  and work with you if you need assistance with schedule changes. The Doc has a way of hitting the right spots to help your wellness.  I recommend their services with enthusiasm.  Thank you.",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+    {
+      name: "DaGunny Rivera",
+      location: "California, USA",
+      review:
+        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
+      rating: 4.5,
+    },
+  ];
 
   return (
     <div className="my px">
@@ -35,9 +143,9 @@ const TestimonialSwiper = () => {
           We value every patient
         </h5>
       </div>
-      <div className="relative w-full h-full py-[2.25rem]">
-      <Carousel slides={slideData} />
-    </div>
+      <div className="relative pb-[4rem] md:pb-[6rem] md:pt-[3rem] overflow-hidden ">
+        <Carousel testimonials={testimonials} />
+      </div>
     </div>
   );
 };
