@@ -3,9 +3,10 @@ import Hero from "@/components/home/Hero";
 import AboutSection from "@/components/home/AboutSection";
 import ServiceList from "@/components/home/ServiceList";
 import TeamSection from "@/components/home/TeamSection";
-import { Contact } from "lucide-react";
+
 import ContactBanner from "@/components/common/ContactBanner";
 import TestimonialSwiper from "@/components/common/TestimonialSwiper";
+import LocationMap from "@/components/common/LocationMap";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       <TeamSection />
       <ContactBanner/>
       <TestimonialSwiper/>
+      <LocationMap />
+      
     </>
   );
 };
