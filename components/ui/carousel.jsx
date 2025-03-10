@@ -10,6 +10,7 @@ const Slide = ({ index, current, handleSlideClick, testimonial }) => {
   const yRef = useRef(0);
   const frameRef = useRef();
 
+
   useEffect(() => {
     const animate = () => {
       if (!slideRef.current) return;
@@ -38,6 +39,21 @@ const Slide = ({ index, current, handleSlideClick, testimonial }) => {
 
   const { img, name, location, rating, review } = testimonial;
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check if window is available (client-side)
+    if (typeof window !== "undefined") {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 640);
+      };
+
+      handleResize(); // Set initial state
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
+  }, []);
+
   return (
     <div className="[perspective:1200px] [transform-style:preserve-3d]">
       <li
@@ -61,7 +77,7 @@ const Slide = ({ index, current, handleSlideClick, testimonial }) => {
             transform:
               current === index
                 ? "translate3d(calc(var(--x) / 30), calc(var(--y) / 30), 0)"
-                : window.innerWidth < 640
+                : isMobile
                 ? "translateY(50px)"
                 : "none",
           }}
@@ -112,9 +128,9 @@ const CarouselControl = ({ type, title, handleClick }) => {
         <path
           d="M16.4652 7.81689L6.29075 18.5M6.29075 18.5L16.4652 29.1832M6.29075 18.5L30.7094 18.5"
           stroke="#F5EDE1"
-          stroke-width="1.74419"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.74419"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </button>
