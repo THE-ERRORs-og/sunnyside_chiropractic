@@ -20,9 +20,9 @@ export default MissionVision;
 
 const Card = ({ title, description }) => {
   return (
-    <div className="p-6 border rounded-lg shadow-[4px_2px_0px_2px] shadow-primary border-primary bg-white flex flex-col h-full">
+    <div className="p-6 border rounded-xl shadow-[4px_2px_0px_2px] shadow-primary border-primary bg-white flex flex-col h-full">
       <h2 className="sub-heading text-primary mb-4">{title}</h2>
-      <p className="text-justify">{description}</p>
+      <h6 className="text-justify">{description}</h6>
     </div>
   );
 };

@@ -33,10 +33,18 @@ body {
   img {
     @apply block max-w-full;
   }
-  p{
-    @apply text-[#000] font-normal text-[0.5rem] md:text-[1rem] lg:text-[1.5rem] leading-[0.625rem] md:leading-[1.25rem] lg:leading-[2.25rem]
+  h3{
+    @apply font-libre-regular font-[400] lg:font-[700] text-[1.5rem] md:text-[1.75rem] lg:text-[2.75rem] leading-[1.75rem] md:leading-[3.125rem]
   }
-  
+  h5{
+    @apply font-libre-regular font-[700] text-[0.75rem] md:text-[1rem] lg:text-[1.5rem]  leading-[0.95rem] md:leading-[1.25rem] lg:leading-[2.25rem]
+  }
+  h6{
+    @apply text-[#000] font-normal text-[0.75rem] md:text-[1rem] lg:text-[1.5rem]  leading-[1.25rem] md:leading-[1.25rem] lg:leading-[2.25rem]
+  }
+  p{
+    @apply text-[#000] font-normal text-[0.6rem] md:text-[0.75rem] lg:text-[1rem] leading-[0.6rem] md:leading-[1rem] lg:leading-[1.75rem]
+  }  
 
 }
 
