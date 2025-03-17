@@ -9,15 +9,18 @@ const AboutSection = () => {
           About <span className="text-secondary">Us</span>
         </h2>
         <p className="">
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Commodo gravida
-          quam hac risus pharetra elementum malesuada finibus? Varius augue
-          egestas tempor consectetur montes morbi senectus. <br/> Lorem ipsum odor
-          amet, consectetuer adipiscing elit. Commodo gravida quam hac risus
-          pharetra elementum malesuada finibus? Varius augue egestas tempor
-          consectetur montes morbi senectus.  <br/>Lorem ipsum odor amet, consectetuer
-          adipiscing elit. Commodo gravida quam hac risus pharetra elementum
-          malesuada finibus? Varius augue egestas tempor consectetur montes
-          morbi senectus.
+          At Sunnyside Wellness & Chiropractic Center, we are dedicated to
+          providing expert chiropractic care that helps individuals live
+          pain-free and move with ease. 
+          <br/>With a focus on holistic, non-invasive
+          treatments, we address a range of musculoskeletal conditions,
+          including back pain, neck pain, and injuries. Our team is committed to
+          personalized care, ensuring each patient receives the treatment and
+          guidance they need to achieve long-term wellness.
+          <br/>Whether you're
+          seeking relief from discomfort or looking to improve your overall
+          health, we are here to support your journey to a healthier, more
+          active life.
         </p>
         <MainButton text="Learn More" />
       </div>

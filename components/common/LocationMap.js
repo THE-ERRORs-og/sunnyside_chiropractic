@@ -3,8 +3,8 @@ import MainButton from "./MainButton";
 
 const LocationMap = () => {
   return (
-    <div className="my px">
-      <div className="flex mb-[1.375rem] items-center justify-center sm:justify-between text-[8px] md:text-[14px]">
+    <div className="px">
+      <div className="flex  items-center justify-center sm:justify-between text-[8px] md:text-[14px]">
         <h2 className="sub-heading">
           Where are<span className="text-secondary"> we?</span>
         </h2>
