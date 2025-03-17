@@ -57,7 +57,7 @@ const CareProcess = () => {
           return (
             <div
               key={index}
-              className={`p-6 border rounded-lg ${shadowClass} bg-white flex flex-col items-center text-center h-full hover:shadow-none transition duration-300 ease-in-out`}
+              className={`p-6 border-[0.12px] rounded-xl ${shadowClass} bg-white flex flex-col items-center text-center h-full hover:shadow-none transition duration-300 ease-in-out`}
             >
               <Image
                 src={step.img}
