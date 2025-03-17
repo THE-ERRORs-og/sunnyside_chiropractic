@@ -1,13 +1,13 @@
 import React from "react";
-import TestimonialCard from "./TestimonialCard";
+import { Carousel } from "../ui/carousel";
 
-const TestimonialList = () => {
+const TestimonialSwiper = () => {
   const testimonials = [
     {
       name: "DaGunny Rivera",
       location: "California, USA",
       review:
-        "I've noticed a difference and highly recommend the service of this office. No long waits, office personnel are very courteous and work with you if you need assistance with schedule changes...",
+        "I've noticed a difference and highly recommend the service of this office. No long waits,  office personnel are very courteous  and work with you if you need assistance with schedule changes. The Doc has a way of hitting the right spots to help your wellness.  I recommend their services with enthusiasm.  Thank you.",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s",
       rating: 4.5,
     },
@@ -134,26 +134,20 @@ const TestimonialList = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center p-5 gap-6">
-      <div className="grid grid-cols-3 gap-6 w-full max-w-6xl">
-        {testimonials.map((testimonial, index) => {
-          let colSpan = Math.random() > 0.5 ? 2 : 1;
-          if (index % 2 === 1) {
-            colSpan = 3 - colSpan;
-          }
-
-          return (
-            <div
-              key={index}
-              className={`bg-white p-6 col-span-${colSpan} rounded-2xl shadow-lg border border-gray-200`}
-            >
-              <TestimonialCard testimonial={testimonial} />
-            </div>
-          );
-        })}
+    <div className="my px">
+      <div className="flex mb-[1.375rem] items-center justify-center sm:justify-between text-[8px] md:text-[14px]">
+        <h2 className="sub-heading">
+          What our <span className="text-secondary">Patients</span> say
+        </h2>
+        <h5 className="text-[1.4em] hidden sm:flex text-primary font-libre-bold">
+          We value every patient
+        </h5>
+      </div>
+      <div className="relative pb-[4rem] md:pb-[6rem] md:pt-[3rem] overflow-hidden ">
+        <Carousel testimonials={testimonials} />
       </div>
     </div>
   );
 };
 
-export default TestimonialList;
+export default TestimonialSwiper;
