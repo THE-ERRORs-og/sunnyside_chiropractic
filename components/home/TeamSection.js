@@ -12,10 +12,10 @@ const TeamSection = () => {
         <h5 className="text-[1.4em] hidden sm:flex text-primary font-libre-bold">We value every patient</h5>
       </div>
       <div className="flex flex-wrap justify-center sm:justify-between gap-y-8 gap-x-2 lg:gap-x-[42px]">
-       <TeamCard/>
-       <TeamCard/>
-       <TeamCard/>
-       <TeamCard/>
+       <TeamCard name ="Dr. Thomas Potigian"/>
+       <TeamCard name ="William Elizondo"/>
+       <TeamCard name ="Jessica Santana"/>
+       <TeamCard name ="Taran Singh"/>
       </div>
       
     </div>

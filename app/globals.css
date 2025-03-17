@@ -51,7 +51,7 @@ body {
     @apply font-libre-regular ;
   }
   .hero-heading{
-    @apply font-libre-bold text-[2rem] leading-[1.875rem] md:text-[3.75rem] md:leading-[4.0625rem]  lg:text-[6.625rem] lg:leading-[7rem] ;
+    @apply font-libre-bold text-[2rem] leading-[2.875rem] md:text-[3.75rem] md:leading-[5.0625rem]  lg:text-[6.625rem] lg:leading-[8rem] ;
   }
   .hero-content{
     @apply text-[0.5rem] leading-[0.82463rem] md:text-[1rem] md:leading-[1.75rem]  lg:text-[1.5rem] lg:leading-[2.25rem];
