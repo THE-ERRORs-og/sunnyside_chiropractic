@@ -33,6 +33,9 @@ body {
   img {
     @apply block max-w-full;
   }
+  h3{
+    @apply font-libre-regular font-[400] lg:font-[700] text-[1.5rem] md:text-[1.75rem] lg:text-[2.75rem] leading-[1.75rem] md:leading-[3.125rem]
+  }
   h5{
     @apply font-libre-regular font-[700] text-[0.75rem] md:text-[1rem] lg:text-[1.5rem]  leading-[0.95rem] md:leading-[1.25rem] lg:leading-[2.25rem]
   }
