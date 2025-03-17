@@ -4,7 +4,7 @@ import MainButton from "./MainButton";
 const ContactBanner = () => {
   return (
     <div className="px">
-      <div className="md:mt-32 mb-14 relative h-[21.3125rem] lg:h-[25.6875rem] w-full bg-[linear-gradient(90deg,#53683F_53.4%,#7F9967_73.43%,#546940_91.91%)] rounded-[0.23113rem_1.38669rem] border">
+      <div className="md:mt-32 mb-14 relative h-[21.3125rem] lg:h-[25.6875rem] w-full bg-[linear-gradient(90deg,#53683F_53.4%,#7F9967_73.43%,#546940_91.91%)] rounded-[0.23113rem_1.38669rem] ">
         <img
           src="/banner-img/contact-banner-img.png"
           className="absolute bottom-0 right-0 hidden md:flex md:w-[29.35163rem] md:h-[25.16638rem] lg:w-[37.8125rem] lg:h-[31.5rem] flex-shrink-0 object-cover [object-position:100%_45%] scale-x-[-1]"

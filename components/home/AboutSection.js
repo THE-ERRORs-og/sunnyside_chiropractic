@@ -25,7 +25,7 @@ const AboutSection = () => {
         <MainButton text="Learn More" />
       </div>
       <img
-        src="/img/about-img.jpeg"
+        src="/img/about-img1.webp"
         alt="About Us"
         className="h-[14.25rem] md:h-[31.8125rem] lg:h-[41.0625rem] w-1/2 rounded-[0.25rem] object-cover object-center"
       />

@@ -5,10 +5,22 @@ import MainButton from "../common/MainButton";
 
 const Hero = () => {
   return (
-    <div className="bg-[url('/img/hero-img.jpeg')] bg-cover bg-center w-full h-[20.94rem] md:h-[44.4375rem] lg:[52.6875rem] relative top-0">
-      <GrayGradient
-        className={"h-[20.94rem] md:h-[44.4375rem] lg:[52.6875rem]"}
-      />
+    <div className="relative w-full h-[20.94rem] md:h-[44.4375rem] lg:h-[52.6875rem]">
+      {/* Background Video */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+        loading="lazy"
+        poster="/img/hero-video-placeholder.png"
+      >
+        <source src="/img/hero-video/hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <GrayGradient className={"h-full"} />
       <div className="px absolute w-[100%]  top-[25%] md:top-[20%]">
         <div className="space-y-3 md:space-y-5">
           <h3 className="hero-subheading font-semibold text-dark_ascent">
@@ -18,9 +30,9 @@ const Hero = () => {
             Helping You
             <span className="font-libre-italic text-secondary">
               <br className="" />
-              Heal
+              Heal {" "}
             </span>
-             & Thrive
+            & Thrive
           </h1>
 
           <p className="hero-content text-white">
