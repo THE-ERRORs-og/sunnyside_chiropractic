@@ -2,9 +2,27 @@
 import { AlignJustify, Cross, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
+  // Define routes with different text colors
+  const blackTextRoutes = [
+    "/about-us",
+    "/testimonials",
+    "/service",
+    "/patients",
+    "/blog",
+  ];
+  const whiteTextRoutes = ["/"];
+
+  // Determine text color based on route
+  const textColor = blackTextRoutes.includes(pathname)
+    ? "text-black"
+    : "text-white";
+
   const [isOpen, setIsOpen] = useState(false); // State to toggle mobile menu
   const menuDrawerRef = useRef(null); // Reference for mobile menu drawer
 
@@ -30,7 +48,7 @@ const Navbar = () => {
             <Link
               href={item.path}
               key={item.name}
-              className="text-lg text-white hover:text-secondary  transition duration-300 ease-in-out"
+              className={`${textColor} text-lg hover:text-secondary transition duration-300 ease-in-out`}
             >
               {item.name}
             </Link>
