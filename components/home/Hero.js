@@ -15,12 +15,12 @@ const Hero = () => {
             40+ Years of Experience
           </h3>
           <h1 className="hero-heading text-ascent ">
-            Get Your
+            Helping You
             <span className="font-libre-italic text-secondary">
               <br className="" />
-              Bones
+              Heal
             </span>
-             Fixed
+             & Thrive
           </h1>
 
           <p className="hero-content text-white">
