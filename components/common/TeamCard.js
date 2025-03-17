@@ -3,10 +3,10 @@ import React from "react";
 const TeamCard = ({name , img}) => {
   return (
     <div className=" w-[calc(50%-9px)] sm:w-[calc(50%-21px)] lg:w-[calc(25%-31.5px)] rounded-xl overflow-hidden">
-      <div className="relative ">
+      <div className="relative bg-[#0000000D] hover:bg-white transition-smooth">
         <img
-          src="/team-img/team-1.png"
-          className="w-full h-full object-cover rounded-xl transition-all ease-in-out duration-300 opacity-70 hover:opacity-100 hover:scale-110"
+          src={img}
+          className="w-full h-full translate-y-14  object-cover rounded-xl transition-all ease-in-out duration-300 hover:-translate-y-1 md:hover:-translate-y-2  lg:hover:-translate-y-3"
           alt="Team"
         />
 
