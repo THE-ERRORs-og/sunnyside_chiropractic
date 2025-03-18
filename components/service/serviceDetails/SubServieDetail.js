@@ -33,7 +33,7 @@ const SubServiceDetail = ({ data }) => {
           <Image
             src={data.image}
             alt={data.title}
-            className="w-full h-64 md:h-[350px] object-cover rounded-lg"
+            className="w-full h-64 md:h-[22rem] lg:h-[33rem] object-cover rounded-lg"
           />
         </div>
         <MainButton
