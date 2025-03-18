@@ -1,13 +1,19 @@
 import React from "react";
-import ServiceDetails from "@/components/service/ServiceDetails";
-import RelatedServices from "@/components/service/RelatedServices";
+import ServiceHero from "@/components/service/serviceDetails/ServiceHero";
+import { serviceData } from "@/lib/data";
+import SubServieDetail from "@/components/service/serviceDetails/SubServieDetail";
 
-const ServiceDetail = () => {
+const ServiceDetail = ({params}) => {
+  const {id} = params;
+  console.log(id);
+  const data = serviceData.find((service) => service.title_id === id);
+  console.log(data);
   return (
     <>
-      <h1 className="text-2xl font-bold">ServiceDetail Page</h1>
-      <ServiceDetails />
-      <RelatedServices />
+      <ServiceHero data={data}/>
+      {data.sub_services.map((sub_service, index) => (
+        <SubServieDetail key={index} data={sub_service} />
+      ))}
     </>
   );
 };
