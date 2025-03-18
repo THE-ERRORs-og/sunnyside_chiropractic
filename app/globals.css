@@ -64,7 +64,7 @@ body {
   }
 
   .banner-heading{
-    @apply font-libre-bold text-[2rem] leading-[2.4375rem] md:text-[2.08006rem] md:leading-[2.4375rem]  lg:text-[3.375rem] lg:leading-[3.75rem];
+    @apply font-libre-bold text-[2rem] leading-[2.4375rem] md:text-[2.08006rem] md:leading-[2.4375rem]  lg:text-[3.175rem] lg:leading-[3.1rem];
   }
   .banner-content{
     @apply text-[0.75rem] md:text-[1rem] lg:text-[1.5rem] leading-normal;
@@ -79,6 +79,11 @@ body {
   .sub-heading{
     @apply font-libre-bold text-[1.5rem] md:text-[2.25rem] lg:text-[3.375rem] leading-[1.75rem] md:leading-[3.125rem] lg:leading-[3.125rem] text-primary;
   }
+  .service-heading{
+    @apply font-libre-bold leading-[0.65938rem] text-[1rem] md:leading-[1.32256rem] lg:text-[1.75rem] lg:leading-[2.25rem];
+  }
+
+
   .px{
     @apply md:pl-16 md:pr-16 pl-6 pr-6 
   }
