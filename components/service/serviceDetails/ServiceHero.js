@@ -2,6 +2,7 @@ import React from "react";
 import GrayGradient from "@/components/common/GrayGradient";
 import { ArrowRight } from "lucide-react";
 import MainButton from "@/components/common/MainButton";
+import ContactButton from "@/components/common/ContactButton";
 
 const ServiceHero = ({data}) => {
   return (
@@ -36,7 +37,7 @@ const ServiceHero = ({data}) => {
         </div>
 
         <div className="md:flex md:flex-row flex-col space-x-3  md:space-x-5">
-          <MainButton text="Contact Us" className={"mt-4 md:mt-8"} />
+          <ContactButton />
         </div>
       </div>
     </div>
