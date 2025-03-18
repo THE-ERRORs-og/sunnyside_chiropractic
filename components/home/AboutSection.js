@@ -8,19 +8,20 @@ const AboutSection = () => {
         <h2 className="sub-heading">
           About <span className="text-secondary">Us</span>
         </h2>
-        <p className="">
+        <p className="lg:text-[1.5rem]   lg:leading-[2.25rem]">
           At Sunnyside Wellness & Chiropractic Center, we are dedicated to
           providing expert chiropractic care that helps individuals live
-          pain-free and move with ease. 
-          <br/>With a focus on holistic, non-invasive
-          treatments, we address a range of musculoskeletal conditions,
-          including back pain, neck pain, and injuries. Our team is committed to
-          personalized care, ensuring each patient receives the treatment and
-          guidance they need to achieve long-term wellness.
-          <br/>Whether you're
-          seeking relief from discomfort or looking to improve your overall
-          health, we are here to support your journey to a healthier, more
-          active life.
+          pain-free and move with ease.
+          <br />
+          With a focus on holistic, non-invasive treatments, we address a range
+          of musculoskeletal conditions, including back pain, neck pain, and
+          injuries. Our team is committed to personalized care, ensuring each
+          patient receives the treatment and guidance they need to achieve
+          long-term wellness.
+          <br />
+          Whether you're seeking relief from discomfort or looking to improve
+          your overall health, we are here to support your journey to a
+          healthier, more active life.
         </p>
         <MainButton text="Learn More" />
       </div>
