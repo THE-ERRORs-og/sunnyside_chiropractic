@@ -30,7 +30,7 @@ const ServiceHero = ({data}) => {
             </span>
           </h1>
 
-          <p className="hero-content text-white">
+          <p className="hero-content text-white w-3/4">
             {data.description}
           </p>
         </div>
