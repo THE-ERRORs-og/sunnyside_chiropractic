@@ -27,11 +27,18 @@ const LocationMap = () => {
           </button>
         </div>
         <div className="md:h-[18.27181rem] w-full md:w-[26.70025rem] lg:h-[37.125rem] lg:w-[54.25rem]  lg:pl-12 rounded-[0.25rem]">
-          <img
+          {/* <img
             src="/img/map-img.png"
             alt="About Us"
             className=" rounded-[0.25rem] shadow-xl  object-cover object-center"
-          />
+          /> */}
+          <iframe
+            title="Google Maps Location"
+            className="w-full h-full rounded-[0.25rem] shadow-xl"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093155!2d144.96305791590488!3d-37.81627974275171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sGoogle!5e0!3m2!1sen!2sin!4v1633865783425!5m2!1sen!2sin"
+            allowFullScreen
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </div>

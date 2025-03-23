@@ -16,6 +16,7 @@ export default {
         primary: "#53683F",
         ascent: "#F5EDE1",
         dark_ascent: "#FFDE9D",
+        light_ascent: "#303030",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
