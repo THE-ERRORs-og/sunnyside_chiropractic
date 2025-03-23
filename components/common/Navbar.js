@@ -15,6 +15,7 @@ const Navbar = () => {
     "/service",
     "/patients",
     "/blog",
+    "/contact-us"
   ];
   const whiteTextRoutes = ["/"];
 
