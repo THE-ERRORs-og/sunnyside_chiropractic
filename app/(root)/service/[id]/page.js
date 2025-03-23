@@ -3,10 +3,14 @@ import ServiceHero from "@/components/service/serviceDetails/ServiceHero";
 import { serviceData } from "@/lib/data";
 import SubServieDetail from "@/components/service/serviceDetails/SubServieDetail";
 
-const ServiceDetail = async ({ params }) => {
-  const { id } = params;
+
+
+const ServiceDetail = async ({params}) => {
+  const {id} = await params;
+  // console.log(id);
   const data = serviceData.find((service) => service.title_id === id);
   // console.log(data);
+
   return (
     <>
       <ServiceHero data={data} />

@@ -2,6 +2,8 @@ import React from "react";
 import GrayGradient from "../common/GrayGradient";
 import { ArrowRight } from "lucide-react";
 import MainButton from "../common/MainButton";
+import { redirect } from "next/navigation";
+import ContactButton from "../common/ContactButton";
 
 const Hero = () => {
   return (
@@ -42,7 +44,7 @@ const Hero = () => {
         </div>
 
         <div className="md:flex md:flex-row flex-col space-x-3  md:space-x-5">
-          <MainButton text="Contact Us" className={"mt-4 md:mt-8"} />
+          <ContactButton />
           <button className="group pt-3.5 pb-3.5 md:ml-12 text-[0.75rem] leading-[0.70681rem] md:text-[1.25rem] md:leading-[1.5rem] lg:text-[1.5rem] lg:leading-[1.5rem] text-white font-medium rounded-xl mt-4 md:mt-8 inline-block transition-all duration-300 hover:text-secondary">
             Get clinic tour{" "}
             <ArrowRight className="inline transition-transform duration-300 group-hover:translate-x-2 " />

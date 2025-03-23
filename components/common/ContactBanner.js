@@ -1,5 +1,6 @@
 import React from "react";
 import MainButton from "./MainButton";
+import ContactButton from "./ContactButton";
 
 const ContactBanner = () => {
   return (
@@ -19,7 +20,7 @@ const ContactBanner = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor.
           </p>
-          <MainButton text="Contact us" />
+          <ContactButton />
         </div>
       </div>
     </div>
