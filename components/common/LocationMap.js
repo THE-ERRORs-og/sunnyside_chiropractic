@@ -35,7 +35,7 @@ const LocationMap = () => {
           <iframe
             title="Google Maps Location"
             className="w-full h-full rounded-[0.25rem] shadow-xl"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093155!2d144.96305791590488!3d-37.81627974275171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sGoogle!5e0!3m2!1sen!2sin!4v1633865783425!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.8252102303!2d-119.72049242435716!3d36.75076637226128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945ec223daca2d%3A0xdcc9025567688633!2sSunnyside%20Wellness%20%26%20Chiropractic%20Center!5e0!3m2!1sen!2sin!4v1742333278084!5m2!1sen!2sin"
             allowFullScreen
             loading="lazy"
           ></iframe>
