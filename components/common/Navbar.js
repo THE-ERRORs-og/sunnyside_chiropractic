@@ -20,7 +20,7 @@ const Navbar = () => {
   const whiteTextRoutes = ["/"];
 
   // Determine text color based on route
-  const textColor = blackTextRoutes.includes(pathname)
+  const textColor = (blackTextRoutes.includes(pathname) || pathname.startsWith("/blog/"))
     ? "text-black"
     : "text-white";
 
