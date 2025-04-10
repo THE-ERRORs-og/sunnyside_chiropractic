@@ -26,7 +26,7 @@ const AboutStaff = () => {
               <h6 className="whitespace-pre-line">{staff.description}</h6>
             </div>
             <div className="flex items-center justify-center p-8 bg-ascent w-full md:w-1/4 rounded-bl-[3.125rem] rounded-tr-[3.125rem]">
-              <Image
+              <img
                 src={staff.image}
                 alt={staff.name}
                 className=" h-full rounded-bl-[1.125rem] rounded-tr-[1.125rem]"

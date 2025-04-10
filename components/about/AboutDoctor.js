@@ -13,7 +13,7 @@ const AboutDoctor = () => {
           <h6 className="whitespace-pre-line">{doctorData.description}</h6>
         </div>
         <div className="flex items-center justify-center p-8 bg-ascent w-full md:w-1/4 rounded-bl-[3.125rem] rounded-tr-[3.125rem]">
-          <Image
+          <img
             src={doctorData.image}
             alt={doctorData.name}
             className=" h-full rounded-bl-[1.125rem] rounded-tr-[1.125rem]"

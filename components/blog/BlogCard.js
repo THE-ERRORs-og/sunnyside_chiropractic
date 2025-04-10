@@ -5,7 +5,13 @@ import React from "react";
 const HorizontalBlogCard = () => {
   return (
     <div className="p-4 grid grid-cols-2 rounded-2xl shadow-lg">
-      <img src={"img/about-img1.jpg"} alt="" className="w-[40vw] h-[50vh]" />
+      <img
+        src={
+          "https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/about-img1.webp"
+        }
+        alt=""
+        className="w-[40vw] h-[50vh]"
+      />
       <div className="flex flex-col place-content-around ml-10 items-start text-start">
         <h1 className="font-libre-regular text-lg md:text-2xl lg:text-4xl text-primary">
           {" "}
@@ -21,9 +27,9 @@ const HorizontalBlogCard = () => {
           {/* black dot */}
           <h2>•</h2>
 
-          <a href="/blog/1" className="text-primary">
+          <Link href="/blog/1" className="text-primary">
             <h2 className="cursor-pointer hover:font-bold">Read Now</h2>
-          </a>
+          </Link>
 
           {/* Arrow */}
           <h2>→</h2>
@@ -36,7 +42,13 @@ const HorizontalBlogCard = () => {
 const VerticalBlogCard = () => {
   return (
     <div className="p-4 grid grid-row-2 rounded-2xl shadow-lg w-[30vw]">
-      <img src={"img/about-img1.jpg"} alt="" className="w-[80vw]" />
+      <img
+        src={
+          "https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/about-img1.webp"
+        }
+        alt=""
+        className="w-[80vw]"
+      />
       <div className="flex flex-col place-content-around m-3 items-start text-start gap-4">
         <h1 className="font-libre-regular text-lg md:text-2xl lg:text-4xl  text-primary">
           {" "}

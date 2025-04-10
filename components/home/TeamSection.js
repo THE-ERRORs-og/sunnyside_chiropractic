@@ -14,10 +14,10 @@ const TeamSection = () => {
         </h5>
       </div>
       <div className="flex flex-wrap justify-center sm:justify-between gap-y-8 gap-x-2 lg:gap-x-[42px]">
-        <TeamCard name="Dr. Thomas Potigian" img="/team-img/team-1.png" />
-        <TeamCard name="William Elizondo" img="/team-img/team-2.png" />
-        <TeamCard name="Jessica Santana" img="/team-img/team-3.png" />
-        <TeamCard name="Taran Singh" img="/team-img/team-4.png" />
+        <TeamCard name="Dr. Thomas Potigian" img="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/team-1.webp" />
+        <TeamCard name="William Elizondo" img="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/team-2.webp" />
+        <TeamCard name="Jessica Santana" img="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/team-3.webp" />
+        <TeamCard name="Taran Singh" img="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/team-4.webp" />
       </div>
     </div>
   );

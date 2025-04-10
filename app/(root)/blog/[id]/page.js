@@ -93,7 +93,7 @@ const BlogPostPage = () => {
 
       <div className="flex place-content-center">
         <img
-          src={"/img/about-img1.jpg"}
+          src={"https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/about-img1.webp"}
           alt=""
           className="rounded-2xl w-[80vw] h-[80vh] shadow-2xl"
         />

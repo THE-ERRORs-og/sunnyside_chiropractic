@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import MainButton from "@/components/common/MainButton";
 import ContactButton from "@/components/common/ContactButton";
 
-const ServiceHero = ({data}) => {
+const ServiceHero = ({ data }) => {
   return (
     <div className="relative w-full h-[20.94rem] md:h-[44.4375rem] lg:h-[52.6875rem]">
       {/* Background Video */}
@@ -17,7 +17,10 @@ const ServiceHero = ({data}) => {
         loading="lazy"
         poster="/img/hero-video-placeholder.png"
       >
-        <source src="/video/hero-video.mp4" type="video/mp4" />
+        <source
+          src="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/hero-video.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
 
@@ -31,9 +34,7 @@ const ServiceHero = ({data}) => {
             </span>
           </h1>
 
-          <p className="hero-content text-white w-3/4">
-            {data.description}
-          </p>
+          <p className="hero-content text-white w-3/4">{data.description}</p>
         </div>
 
         <div className="md:flex md:flex-row flex-col space-x-3  md:space-x-5">
