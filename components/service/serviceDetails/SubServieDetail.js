@@ -30,7 +30,7 @@ const SubServiceDetail = ({ data }) => {
 
         {/* Image Section with responsive sizing */}
         <div className="w-full md:w-[48%]">
-          <Image
+          <img
             src={data.image}
             alt={data.title}
             className="w-full h-64 md:h-[22rem] lg:h-[33rem] object-cover rounded-lg"
