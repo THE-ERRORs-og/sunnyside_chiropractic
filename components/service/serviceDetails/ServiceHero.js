@@ -17,7 +17,7 @@ const ServiceHero = ({data}) => {
         loading="lazy"
         poster="/img/hero-video-placeholder.png"
       >
-        <source src="/img/hero-video/hero-video.mp4" type="video/mp4" />
+        <source src="/video/hero-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
