@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import BlogPost from "@/components/blog/BlogPost";
-import MoreArticles from "@/components/blog/MoreArticles";
+
 import { motion } from "framer-motion";
 
 const blogContent = {
@@ -157,8 +156,6 @@ const BlogPostPage = () => {
         </main>
       </div>
 
-      <BlogPost />
-      <MoreArticles />
     </div>
   );
 };
