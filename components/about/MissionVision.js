@@ -4,13 +4,13 @@ const MissionVision = () => {
       {/* Mission Card */}
       <Card
         title="Our Mission"
-        description="Lorem ipsum odor amet, consectetuer adipiscing elit. Commodo gravida quam hac risus pharetra elementum malesuada finibus? Varius augue egestas tempor consectetur montes morbi senectus."
+        description="To provide compassionate, patient-centered chiropractic care that promotes natural healing, restores mobility, and enhances overall wellness."
       />
 
       {/* Vision Card */}
       <Card
         title="Our Vision"
-        description="Lorem ipsum odor amet, consectetuer adipiscing elit. Commodo gravida quam hac risus pharetra elementum malesuada finibus? Varius augue egestas tempor consectetur montes morbi senectus."
+        description="To be the leading chiropractic wellness center, empowering individuals and families to achieve healthier, more active, and fulfilling lives."
       />
     </div>
   );

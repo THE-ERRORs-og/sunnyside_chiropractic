@@ -5,27 +5,27 @@ import Image from "next/image";
 const CareProcess = () => {
   const careSteps = [
     {
-      title: "Chiropractic Care",
+      title: "Comprehensive Consultation",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem ipsum odor amet, consectetuer adipiscing elit.",
+        "We begin with a detailed assessment to understand your health history, lifestyle, and specific concerns.",
       img: placeholderIcon,
     },
     {
-      title: "Physical Therapy",
+      title: "Thorough Examination",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem ipsum odor amet, consectetuer adipiscing elit.",
+        "Our team performs physical and diagnostic evaluations to identify the root cause of your condition.",
       img: placeholderIcon,
     },
     {
-      title: "Massage Therapy",
+      title: "Personalized Treatment Plan",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem ipsum odor amet, consectetuer adipiscing elit.",
+        "We design a tailored care program that may include chiropractic adjustments, therapies, and wellness guidance.",
       img: placeholderIcon,
     },
     {
-      title: "Acupuncture",
+      title: "Ongoing Support & Progress Tracking",
       description:
-        "Lorem ipsum odor amet, consectetuer adipiscing elit. Lorem ipsum odor amet, consectetuer adipiscing elit.",
+        "We monitor your recovery, adjust treatments as needed, and provide tools to help you maintain long-term health",
       img: placeholderIcon,
     },
   ];
