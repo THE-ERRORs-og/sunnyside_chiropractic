@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => {
         muted
         playsInline
         loading="lazy"
-        poster="/img/hero-video-placeholder.png"
+        poster="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/hero-video-placeholder.webp"
       >
         <source src="/services-videos/service-1.mp4" type="video/mp4" />
         Your browser does not support the video tag.

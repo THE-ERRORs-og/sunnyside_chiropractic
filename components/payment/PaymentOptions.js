@@ -21,13 +21,13 @@ const PaymentOptions = () => {
       <AccordionItem value="item-3">
         <AccordionTrigger>Family Plans</AccordionTrigger>
         <AccordionContent>
-          Yes. It's animated by default, but you can disable it if you prefer.
+          Yes. It is animated by default, but you can disable it if you prefer.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">
         <AccordionTrigger>Health on Budget</AccordionTrigger>
         <AccordionContent>
-          Yes. It's animated by default, but you can disable it if you prefer.
+          Yes. It is animated by default, but you can disable it if you prefer.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

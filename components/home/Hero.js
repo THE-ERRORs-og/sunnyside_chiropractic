@@ -18,7 +18,7 @@ const Hero = () => {
         loading="lazy"
         poster="/img/hero-video-placeholder.png"
       >
-        <source src="/img/hero-video/hero-video.mp4" type="video/mp4" />
+        <source src="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/hero-video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

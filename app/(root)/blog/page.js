@@ -1,5 +1,5 @@
 import React from "react";
-import BlogList from "@/components/blog/BlogList";
+
 import BlogCard, { HorizontalBlogCard, VerticalBlogCard } from "@/components/blog/BlogCard";
 
 const Blog = () => {
@@ -40,7 +40,7 @@ const Blog = () => {
         </div>
       </div>
 
-      <BlogList />
+     
     </div>
   );
 };

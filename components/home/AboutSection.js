@@ -19,14 +19,14 @@ const AboutSection = () => {
           patient receives the treatment and guidance they need to achieve
           long-term wellness.
           <br />
-          Whether you're seeking relief from discomfort or looking to improve
+          Whether you are seeking relief from discomfort or looking to improve
           your overall health, we are here to support your journey to a
           healthier, more active life.
         </p>
         <MainButton text="Learn More" />
       </div>
       <img
-        src="/img/about-img1.webp"
+        src="https://pub-fe3a85f76892426f9292bab6a6efe903.r2.dev/about-img1.webp"
         alt="About Us"
         className="h-[14.25rem] md:h-[31.8125rem] lg:h-[41.0625rem] w-1/2 rounded-[0.25rem] object-cover object-center"
       />
