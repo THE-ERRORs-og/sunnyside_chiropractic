@@ -17,8 +17,8 @@ const ContactBanner = () => {
             Your Life
           </h1>
           <p className="text-[#CACACA] banner-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
+          Discover natural, lasting relief through personalized chiropractic care. Our
+          goal is to restore balance, relieve pain, and empower you to live a healthier, more vibrant life.
           </p>
           <ContactButton />
         </div>
