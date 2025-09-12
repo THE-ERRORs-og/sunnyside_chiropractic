@@ -9,7 +9,6 @@ const Slide = ({ index, current, handleSlideClick, testimonial }) => {
   const yRef = useRef(0);
   const frameRef = useRef();
 
-
   useEffect(() => {
     const animate = () => {
       if (!slideRef.current) return;
@@ -91,12 +90,18 @@ const Slide = ({ index, current, handleSlideClick, testimonial }) => {
               className="w-[2rem] h-[2rem] md:w-[3rem] md:h-[3rem] lg:w-[4.5rem] lg:h-[4.5rem] border-2 rounded-full border-black"
             />
             <div className="justify-start items-center">
-              <Reviews rating={rating} width={13} height={15}/>
-              <h3 className="text-[0.8rem] md:text-[1.5rem] md:leading-[1.875rem] lg:text-[1.79175rem] text-black font-semibold">{name}</h3>
-              <p className="text-[0.5rem] text-[#666666] md:text-[1rem] text-start">{location}</p>
+              <Reviews rating={rating} width={13} height={15} />
+              <h3 className="text-[0.8rem] md:text-[1.5rem] md:leading-[1.875rem] lg:text-[1.79175rem] text-black font-semibold">
+                {name}
+              </h3>
+              <p className="text-[0.5rem] text-[#666666] md:text-[1rem] text-start">
+                {location}
+              </p>
             </div>
           </div>
-          <p className="review-content">{review}</p>
+          <p className="review-content text-[0.6rem] md:text-[1rem] text-black text-start line-clamp-5 overflow-hidden">
+            {review.length > 200 ? `${review.substring(0, 200)}...` : review}
+          </p>
         </div>
 
         {/* {current === index && (

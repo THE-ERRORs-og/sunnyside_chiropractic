@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and system directories
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+Disallow: /.well-known/
+
+# Allow important pages
+Allow: /service/
+Allow: /blog/
+Allow: /testimonials/
+
+# Sitemap location
+Sitemap: https://sunnysidechiropractic.com/sitemap.xml
