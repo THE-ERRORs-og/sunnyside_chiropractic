@@ -60,14 +60,14 @@ const Footer = () => {
           <div className="p-4 ">
             <h4 className="footer-content font-semibold">Contact Us</h4>
 
-            <div className="flex space-x-2 items-center">
+            <a href="mailto:Sunnysidewellness@gmail.com" className="flex space-x-2 items-center">
               <Mail className="footer-content" />
-              <h4 className="footer-content">xyz@gmail.com</h4>
-            </div>
-            <div className="flex space-x-2 items-center">
+              <h4 className="footer-content">Sunnysidewellness@gmail.com</h4>
+            </a>
+            <a href="tel:+15594541000" className="flex space-x-2 items-center">
               <PhoneCall className="footer-content" />
-              <h4 className="footer-content">+15594541000</h4>
-            </div>
+              <h4 className="footer-content">(559) 454-1000</h4>
+            </a>
           </div>
         </div>
         <hr className="w-full h-[0.0625rem] text-[#F5EDE1]" />
